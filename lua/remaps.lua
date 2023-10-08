@@ -24,7 +24,7 @@ vim.opt.scrolloff = 5
 -- Better editor UI
 vim.opt.number = true
 -- vim.opt.numberwidth = 3
-vim.opt.relativenumber = false
+vim.opt.relativenumber = true
 -- vim.opt.signcolumn = 'yes:2'
 vim.opt.signcolumn = 'yes'
 vim.opt.cursorline = false
