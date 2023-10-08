@@ -8,3 +8,6 @@ require'remaps'
 -- CONFIG
 require'config.catppuccin'
 require'config.telescope'
+require'config.lsp'
+require'config.cmp'
+require'config.lualine'
