@@ -42,8 +42,6 @@ vim.opt.shiftwidth = 0
 vim.opt.softtabstop = -1 -- If negative, shiftwidth value is used
 vim.opt.list = false
 vim.opt.listchars = 'trail:·,nbsp:◇,tab:→ ,extends:▸,precedes:◂,eol:⁋'
--- o.listchars = 'eol:¬,space:·,lead: ,trail:·,nbsp:◇,tab:→-,extends:▸,precedes:◂,multispace:···⬝,leadmultispace:│   ,'
--- o.formatoptions = 'qrn1'
 
 -- Makes neovim and host OS clipboard play nicely with each other
 vim.opt.clipboard = 'unnamedplus'
