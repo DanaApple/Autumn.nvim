@@ -1,30 +1,16 @@
-
--- return to files
-vim.keymap.set('n', '-', vim.cmd.Ex)
--- sensible defaults from https://www.youtube.com/watch?v=J9yqSdvAKXY
 vim.opt.backspace = '2'
 vim.opt.showcmd = true
 vim.opt.laststatus = 2
 vim.opt.autowrite = true -- save the file before leaving if changed
 vim.opt.autoread = true -- auto load file changes occured outside vim
-
-
--- Decrease update time
 vim.opt.timeoutlen = 500
 vim.opt.updatetime = 50 -- primeagen value
-
--- Number of screen lines to keep above and below the cursor
 vim.opt.scrolloff = 5
-
--- Better editor UI
 vim.opt.number = true
--- vim.opt.numberwidth = 3
 vim.opt.relativenumber = true
--- vim.opt.signcolumn = 'yes:2'
 vim.opt.signcolumn = 'yes'
 vim.opt.cursorline = false
 vim.opt.colorcolumn = '80,120'
-
 vim.opt.expandtab = true
 vim.opt.cindent = true
 vim.opt.wrap = true
